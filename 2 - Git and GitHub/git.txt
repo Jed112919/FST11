@@ -47,4 +47,5 @@ git branch -a
 
 - Switch to a different branch
 git switch "branch name" Note: may not work for older versions
+git switch "branch name" Note: may not work on all version
 git checkout "branch name"
