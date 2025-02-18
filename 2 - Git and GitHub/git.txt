@@ -15,3 +15,23 @@ git config user.name
 
 - Check configured email in git
 git config user.email
+
+- Add all untracked files to the staging area
+git add .
+
+- Commit files from staging area
+git commit -m "Description of your change"
+
+
+Legends
+U - untracked
+A - added
+M - modified
+D - deleted
+R - renamed
+
+- Show commit history
+git log
+
+- Show commit history (Summarized)
+git log --oneline
