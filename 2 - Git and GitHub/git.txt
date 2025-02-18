@@ -55,3 +55,15 @@ git merge "branch name"
 
 - Delete branch
 git branch -d "branch name"
+
+- Add a remote to local repository
+git remote add origin "repository url"
+
+- Set branch to main
+git branch -M main
+
+- Push local repository to remote repository 
+git push -u origin main
+
+- Confirm connection to remote repository
+git remote -v
