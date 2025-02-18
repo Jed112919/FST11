@@ -1,0 +1,32 @@
+GUI - Graphical User Interface: Icons/Buttons/Menus
+CLI - Command-line Interface: Text-based, interacting and managing of files/folders
+
+- Make directory
+mkdir "directory name"
+
+- Remove directory
+rmdir "directory name"
+
+- Print/Present working directory
+pwd
+
+- Change directory 
+cd
+
+- Go back one Directory 
+cd ..
+
+- Create files
+touch "file name"
+
+- Remove files
+rm "file name"
+
+- Copy files
+cp "source file" "destination path" 
+
+- Move files
+mv "source file" "destination path
+
+- Rename files
+mv "old file name" "new file name"
