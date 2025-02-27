@@ -1,0 +1,22 @@
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: row; */
+
+    align-items: center;
+    justify-content: center;
+
+    flex-wrap: nowrap;
+
+    /* Gap */
+
+    column-gap: 10px;
+    gap: 10px;
+    row-gap: 30px;
+}
+
+.flexItem1 {
+    /* flex-grow: 0;
+    flex-grow: 1; */
+    flex-shrink: 1;
+}

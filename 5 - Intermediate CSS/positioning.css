@@ -1,0 +1,33 @@
+/* Relative to its original position */
+#relative {
+    position: relative;
+    background-color: purple;
+    color: white;
+    bottom: 30px;
+    right: 30px;
+}
+
+/* Relative to the parent container, has a position that is not static */
+#absolute {
+    background-color: blue;
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/* Relative to the viewport */
+#fixed {
+    background-color: red;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+/* Start relative to its original position */
+#sticky {
+    position: sticky;
+    background-color: pink;
+    top: 10px;
+}

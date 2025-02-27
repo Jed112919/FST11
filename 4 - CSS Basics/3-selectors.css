@@ -1,0 +1,44 @@
+/* Element Selector */
+span {
+    color: green;
+    font-size: 1.5rem;
+}
+
+/* Class Selector */
+.intro-paragraphs {
+    color: red;
+    font-size: 2rem;
+}
+
+/* ID Selector */
+#main-heading {
+    color: blue;
+    font-size: 20px;
+}
+
+/* Universal Selector */
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* Grouping Selector */
+h1, h2, .about-content {
+    text-decoration: underline;
+}
+
+.article-container p{
+    background-color: violet;
+}
+
+a:hover {
+    color: darkred;
+}
+
+a:active{
+    background-color: yellow;
+}
+
+a:visited {
+    color: green;
+}

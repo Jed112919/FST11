@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <!-- Forms: collect user input for data -->
+    <form action="">
+        <div>
+            <label for="username-id">Name:</label>
+            <input placeholder="John Doe" name="user-fullname" id="username-id" type="text" required>
+        </div>
+
+        <div>
+            <label for="email-id">Email:</label>
+            <input type="email" name="user-email" id="email-id" placeholder="Doe@email.com" required>
+        </div>
+
+        <div>
+            <label for="password-id">Password:</label>
+            <input type="password" name="user-password" id="password-id" placeholder="Password" required>
+        </div>
+
+        <div>
+            <label for="age-id">Age:</label>
+            <input type="number" name="user-age" id="age-id" min="18" max="25">
+        </div>
+        <br>
+
+        <div>
+            <label for="message-id">Message:</label>
+            <textarea name="user-message" id="message-id" placeholder="Sample Message" cols="30" rows="4"></textarea>
+        </div>
+        <br>
+
+        <div>
+            <!-- Dropdown List -->
+            <label for="gender-id">Gender:</label>
+            <select name="user-gender" id="gender-id">
+                <option value="" hidden disabled selected>--- Select Your Gender ---</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+
+        <div>
+            <p>Profile Profile Status</p>
+            <input value="public" type="radio" name="profile-status" id="public-id">
+            <label for="public-id">Public</label>
+
+            <input value="private" type="radio" name="profile-status" id="private-id">
+            <label for="private-id">Private</label>
+        </div>
+
+        <div>
+            <p>Movie Genre</p>
+            <input type="checkbox" value="mystery" name="genre" id="mystery-id">
+            <label for="mystery-id">Mystery</label>
+
+            <input type="checkbox" name="genre" id="comedy-id">
+            <label for="comedy-id">Comedy</label>
+
+            <input type="checkbox" value="horror" name="genre" id="horror-id">
+            <label for="horror-id">Horror</label>
+
+            <input type="checkbox" value="action" name="genre" id="action-id">
+            <label for="action-id">Action</label>
+
+            <input type="checkbox" value="Sci-Fi" name="genre" id="sci-fi-id">
+            <label for="sci-fi-id">Sci-Fi</label>
+        </div>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
